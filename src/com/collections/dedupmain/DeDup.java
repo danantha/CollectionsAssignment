@@ -91,7 +91,7 @@ public class DeDup {
 
 	    ArrayList<Integer> tempList = new ArrayList<Integer>();
 	    for (int i = 0; i < randomIntegers.length; i++) {
-	        if(isMatch[i] == true) {
+	        if(isMatch[i]) {
 	            continue;
 	        }
 	        else {
